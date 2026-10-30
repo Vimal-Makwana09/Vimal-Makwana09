@@ -160,45 +160,26 @@ flowchart TD
 
 ## 🚀 Featured Production Projects
 
-### 1. 🤖 [Agentic AI & Enterprise RAG Platform (MCP Core)](https://github.com/Vimal-Makwana09/agentic-rag-mcp-orchestrator)
-An enterprise AI platform implementing Anthropic's **Model Context Protocol (MCP)** and Hybrid Retrieval-Augmented Generation. Features standardized MCP tool servers allowing autonomous agents to inspect cloud drift safely, Redis semantic caching ($<10\text{ms}$ query latency), and NeMo Guardrails blocking prompt injections.
-- [Repository](https://github.com/Vimal-Makwana09/agentic-rag-mcp-orchestrator)
-- [MCP Tool Server Spec](https://github.com/Vimal-Makwana09/agentic-rag-mcp-orchestrator#mcp-tools)
-- [Architecture Blueprint](https://github.com/Vimal-Makwana09/agentic-rag-mcp-orchestrator#architecture)
-- [AI Safety Guardrails](https://github.com/Vimal-Makwana09/agentic-rag-mcp-orchestrator#guardrails)
 
-### 2. ☁️ [Azure Enterprise CAF Landing Zone](https://github.com/Vimal-Makwana09/azure-enterprise-landing-zone)
+
+### 1. ☁️ [Azure Enterprise CAF Landing Zone](https://github.com/Vimal-Makwana09/azure-enterprise-landing-zone)
 A production Microsoft Cloud Adoption Framework (CAF) Landing Zone in Terraform. Implements a multi-subscription management group hierarchy (Platform vs Workloads vs Sandbox), Hub-and-Spoke networking with Azure Firewall Premium (IDPS/TLS inspection), forced UDR `0.0.0.0/0` routing, and 100% CIS Azure Benchmark compliance.
 - [Repository](https://github.com/Vimal-Makwana09/azure-enterprise-landing-zone)
 - [Hub-and-Spoke Topology](https://github.com/Vimal-Makwana09/azure-enterprise-landing-zone#networking)
 - [Azure Policy as Code](https://github.com/Vimal-Makwana09/azure-enterprise-landing-zone#governance)
 - [Operations Runbook](https://github.com/Vimal-Makwana09/azure-enterprise-landing-zone#runbook)
 
-### 3. 🛡️ [DevSecOps "Golden Path" Pipeline Library](https://github.com/Vimal-Makwana09/devsecops-golden-path-platform)
+### 2. 🛡️ [DevSecOps "Golden Path" Pipeline Library](https://github.com/Vimal-Makwana09/devsecops-golden-path-platform)
 A zero-trust CI/CD delivery framework built on GitHub Actions and Azure DevOps. Features pre-commit secret scanning with GitLeaks, IaC static analysis via Checkov/Trivy, Infracost budget delta enforcement, and automated nightly drift detection alerting directly to incident channels.
 - [Repository](https://github.com/Vimal-Makwana09/devsecops-golden-path-platform)
 - [CI/CD Workflow Matrix](https://github.com/Vimal-Makwana09/devsecops-golden-path-platform/actions)
 - [Threat Model Document](https://github.com/Vimal-Makwana09/devsecops-golden-path-platform#threat-model)
 - [Automated Drift Engine](https://github.com/Vimal-Makwana09/devsecops-golden-path-platform#drift-detection)
 
-### 4. 📦 [100+ Workload Datacenter Migration Factory](https://github.com/Vimal-Makwana09/datacenter-migration-factory-100)
-An end-to-end cloud migration framework engineered to migrate 100+ VMware/Hyper-V workloads to Azure. Includes wave planning execution scripts, 6R rationalization decision trees, pre-flight dependency mapping, and minute-by-minute cutover runbooks with automated rollback gates.
-- [Repository](https://github.com/Vimal-Makwana09/datacenter-migration-factory-100)
-- [6R Rationalization Matrix](https://github.com/Vimal-Makwana09/datacenter-migration-factory-100#6r-matrix)
-- [Cutover Window Runbook](https://github.com/Vimal-Makwana09/datacenter-migration-factory-100#cutover)
-- [Hypercare Operating Model](https://github.com/Vimal-Makwana09/datacenter-migration-factory-100#hypercare)
 
-### 5. 💰 [FinOps Cloud Cost Governor](https://github.com/Vimal-Makwana09/finops-cloud-governor)
-An event-driven FinOps automation daemon scanning for unattached managed disks, orphaned public IPs, and idle NAT gateways. Features continuous 95th-percentile utilization profiling for rightsizing and Data Collection Rules (DCR) KQL transforms that reduce Log Analytics ingestion billing by over 40%.
-- [Repository](https://github.com/Vimal-Makwana09/finops-cloud-governor)
-- [Cost Optimization Strategy](https://github.com/Vimal-Makwana09/finops-cloud-governor#optimization)
-- [DCR Telemetry Filter](https://github.com/Vimal-Makwana09/finops-cloud-governor#dcr-tuning)
 
-### 6. 📊 [Enterprise SRE & Observability Platform](https://github.com/Vimal-Makwana09/sre-multi-region-observability)
-A centralized observability and reliability platform with Azure Monitor Agent (AMA), Log Analytics workspaces, Prometheus/Grafana dashboards, KQL anomaly alerts, and automated Disaster Recovery failover drills (RTO $\le 60\text{m}$, RPO $\le 15\text{m}$).
-- [Repository](https://github.com/Vimal-Makwana09/sre-multi-region-observability)
-- [KQL Alert Rule Library](https://github.com/Vimal-Makwana09/sre-multi-region-observability#kql-alerts)
-- [ASR Disaster Recovery Drill](https://github.com/Vimal-Makwana09/sre-multi-region-observability#dr-drill)
+
+
 
 ---
 
